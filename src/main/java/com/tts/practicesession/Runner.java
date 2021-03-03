@@ -6,7 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-@Component
+//Only need @Component the first time or else it will repopulate the list every time with the same data
+//@Component
 public class Runner implements CommandLineRunner {
 
     @Autowired
